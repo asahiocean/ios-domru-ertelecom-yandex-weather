@@ -5,9 +5,9 @@
 
 ---
 
-<img width="256" alt="example" src="https://raw.githubusercontent.com/asahiocean/ERTelecom-Dom.ru/main/example.gif">
+– Архитектура VIPER<br>
+– Работа с сетью: URLSession, URLRequest и Moya<br>
+– Firebase для аналитики<br>
+– Realm, UserDefaults и URLCache для хранения
 
-1. Архитектура VIPER
-2. Работа с сетью: URLSession, URLRequest и Moya
-3. Firebase для аналитики
-4. Realm, UserDefaults и URLCache для хранения
+<img width="256" alt="example" src="https://raw.githubusercontent.com/asahiocean/ERTelecom-Dom.ru/main/example.gif">
