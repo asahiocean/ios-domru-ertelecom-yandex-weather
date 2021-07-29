@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WindDirViewForCell" customModule="TestTaskDomRu" customModuleProvider="target">
+            <connections>
+                <outlet property="arrowLabelView" destination="clV-Pz-UQM" id="M8P-06-ZUg"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="clw-px-B0q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="contentView" id="iN0-l3-epB" userLabel="contentView">
+            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="➤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clV-Pz-UQM" userLabel="arrow">
+                    <rect key="frame" x="0.0" y="13.5" width="21" height="21"/>
+                    <accessibility key="accessibilityConfiguration" identifier="arrowLabelView"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="clV-Pz-UQM" secondAttribute="height" multiplier="1:1" id="dxp-2T-WUd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="clV-Pz-UQM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LAm-xi-Txr"/>
+                <constraint firstItem="clV-Pz-UQM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rKy-Wp-Wbb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26" y="93"/>
+        </view>
+    </objects>
+</document>

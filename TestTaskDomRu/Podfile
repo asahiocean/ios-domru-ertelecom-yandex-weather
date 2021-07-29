@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestTaskDomRu' do
+  use_frameworks!
+  pod 'Firebase/Analytics'
+  pod 'Moya', '~> 14.0'
+  pod 'RealmSwift'
+
+  # Pods for TestTaskDomRu
+
+  target 'TestTaskDomRuTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestTaskDomRuUITests' do
+    # Pods for testing
+  end
+
+end

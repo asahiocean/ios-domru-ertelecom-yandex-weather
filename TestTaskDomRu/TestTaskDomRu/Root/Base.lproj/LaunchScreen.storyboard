@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="domru" translatesAutoresizingMaskIntoConstraints="NO" id="nQd-Ez-AyK">
+                                <rect key="frame" x="107" y="270" width="200" height="178"/>
+                                <color key="tintColor" red="0.83137254900000002" green="0.0" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="jdW-6i-L2R"/>
+                                    <constraint firstAttribute="width" secondItem="nQd-Ez-AyK" secondAttribute="height" multiplier="271:241" id="odU-Mp-o0T"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YandexWeather" translatesAutoresizingMaskIntoConstraints="NO" id="ogA-gS-qix">
+                                <rect key="frame" x="135.5" y="834" width="143" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="Jl1-5R-O7Z"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="S9P-sC-udI">
+                                <rect key="frame" x="0.0" y="493" width="414" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уже запускаюсь!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArW-mF-Y1t" userLabel="statusLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S9P-sC-udI" secondAttribute="height" multiplier="69:4" id="2ZV-Vc-6Fs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ogA-gS-qix" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6AD-Fq-BJM"/>
+                            <constraint firstItem="S9P-sC-udI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FlC-UV-HS4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S9P-sC-udI" secondAttribute="trailing" id="Kf9-Cf-rM8"/>
+                            <constraint firstItem="nQd-Ez-AyK" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Pyr-3u-JsJ"/>
+                            <constraint firstItem="S9P-sC-udI" firstAttribute="top" secondItem="nQd-Ez-AyK" secondAttribute="bottom" multiplier="1.1" id="Qoq-eG-5W2"/>
+                            <constraint firstItem="nQd-Ez-AyK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dsy-1X-1Nj"/>
+                            <constraint firstItem="S9P-sC-udI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eQF-6I-UQH"/>
+                            <constraint firstItem="ogA-gS-qix" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" constant="-34" id="lT2-rp-LyX"/>
+                            <constraint firstItem="S9P-sC-udI" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="oPU-VT-R3h"/>
+                            <constraint firstItem="ogA-gS-qix" firstAttribute="width" secondItem="ogA-gS-qix" secondAttribute="height" multiplier="143:28" id="wx5-Fh-sZz"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="YandexWeather" width="143" height="28"/>
+        <image name="domru" width="271" height="241"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
