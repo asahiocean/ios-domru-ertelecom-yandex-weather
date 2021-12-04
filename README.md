@@ -13,6 +13,6 @@
 
 <h3>Превью</h3>
 
-<img width="256" alt="example" src="https://raw.githubusercontent.com/asahiocean/ERTelecom-Dom.ru/main/example.gif"><br>
+<img width="256" alt="example" src="https://media.giphy.com/media/Gg96sLG48i1a6pRnCM/giphy.gif"><br>
 
 <a href="https://ertelecom.ru"><b>ЭР-Телеком</b></a>
